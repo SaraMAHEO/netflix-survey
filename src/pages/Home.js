@@ -12,11 +12,11 @@ const Home = () => {
 
     return (
         <div>
+            <Navigation />
             < Logo />
             <div className="countries">
                 <h3>Bienvenue {user}</h3>
             </div>
-            <Navigation />
             <Countries />
         </div >
     );

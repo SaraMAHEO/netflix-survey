@@ -1,0 +1,82 @@
+[
+    {
+        "title": "The Batman",
+        "image": "./fond/the-batman.png"
+    },
+    {
+        "title": "Spider-Man: No Way Home",
+        "image": "./fond/spider-man-3.jpg"
+    },
+    {
+        "title": "The Outfit",
+        "image": "./fond/the-outfit.jpg"
+    },
+    {
+        "title": "Turning Red",
+        "image": "./fond/turning-red.jpg"
+    },
+    {
+        "title": "Uncharted",
+        "image": "./fond/uncharted.jpg"
+    },
+    {
+        "title": "Sonic the Hedgehog 2",
+        "image": "./fond/sonic-2.jpg"
+    },
+    {
+        "title": "Yaksha: Ruthless Operations",
+        "image": "./fond/yaksha.jpg"
+    },
+    {
+        "title": "Moonfall",
+        "image": "./fond/moonfall.jpg"
+    },
+    {
+        "title": "All the Old Knives",
+        "image": "./fond/all-the-old-knives.jpg"
+    },
+    {
+        "title": "Blacklight",
+        "image": "./fond/blacklight.jpg"
+    },
+    {
+        "title": "Encanto",
+        "image": "./fond/Encanto.jpg"
+    },
+    {
+        "title": "War of the Worlds: Annihilation",
+        "image": "./fond/war-of-worldV2.jpg"
+    },
+    {
+        "title": "The Adam Project",
+        "image": "./fond/adam-project.jpg"
+    },
+    {
+        "title": "No Exit",
+        "image": "./fond/no-exit.jpg"
+    },
+    {
+        "title": "Pil's Adventures",
+        "image": "./fond/pil-adventure.jpg"
+    },
+    {
+        "title": "Gold",
+        "image": "./fond/gold.jpg"
+    },
+    {
+        "title": "Hotel Transylvania: Transformania",
+        "image": "./fond/hotel-transylvania.png"
+    },
+    {
+        "title": "Black Crab",
+        "image": "./fond/black-crab.jpeg"
+    },
+    {
+        "title": "Restless",
+        "image": "./fond/restless.jpg"
+    },
+    {
+        "title": "The In Between",
+        "image": "./fond/the-in-between.jpg"
+    }
+]

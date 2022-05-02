@@ -7,7 +7,7 @@ const searchImageByTitle = (titre) => {
     if (test) {
         return test.image
     }else{
-        return "./spider-man-3.jpg"
+        return "./fond/default.jpeg"
     }
    };
 

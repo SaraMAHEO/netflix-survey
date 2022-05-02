@@ -15,11 +15,20 @@
       transform: translateY(1px);
     }
 
+    input[type=radio] {
+      accent-color: $color-4;
+    }
+
+    input[type=range] {
+      accent-color: $color-4;
+    }
+
     label {
       margin-left: 10px;
       cursor: pointer;
     }
   }
+
   input[type="text"] {
     padding: 10px;
     border-radius: 40px;
@@ -41,14 +50,15 @@
   button {
     margin: 0 auto 20px;
     background: none;
-    border: 2px solid $color-1;
+    border: 2px solid $color-4;
     padding: 4px 10px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.2s;
+    font-size: 15px;
 
     &:hover {
-      background: $color-1;
+      background: $color-4;
     }
   }
 

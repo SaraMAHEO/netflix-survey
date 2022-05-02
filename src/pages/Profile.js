@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
 import Header from "../components/Header";
-import Countries from "../components/Countries";
 import { UserContext } from "../context/UserContext";
 import Logo from '../components/Logo';
 
-const Home = () => {
+const Profile = () => {
     const { user, setUser } = useContext(UserContext);
 
     return (
@@ -15,10 +14,9 @@ const Home = () => {
                 <div className="countries">
                     <h3>Bienvenue {user}</h3>
                 </div>
-                <Countries />
             </div>
         </div >
     );
 };
 
-export default Home;
+export default Profile;

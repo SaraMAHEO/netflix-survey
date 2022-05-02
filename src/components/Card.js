@@ -1,6 +1,7 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MovieContext } from "../context/MovieContext";
+import Question from './Question';
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
@@ -12,7 +13,7 @@ const Card = ({ movie }) => {
         <li className="card" 
         onClick={() => {  
           setMovieCtx(movie.title);        
-          navigate("/quizz");          
+          navigate("/quizz");
       }} >
             <img
                 src={`${base_url}${

@@ -1,0 +1,70 @@
+.sidebar,
+.content {
+  position: relative;
+  transition: width 0.1s;
+}
+.header .pro-sidebar {
+  height: 100vh;
+}
+.header .closemenu {
+  color: rgb(255, 255, 255, 0.7);
+  position: relative;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 50px;
+  cursor: pointer;
+}
+.header .pro-sidebar {
+  width: 100%;
+  min-width: 100%;
+}
+.header .pro-sidebar.collapsed {
+  width: 80px;
+  min-width: 80px;
+}
+.header .pro-sidebar-inner {
+  background-color: $black;
+  box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
+}
+.header .pro-sidebar-inner .pro-sidebar-layout {
+  overflow-y: hidden;
+}
+.header .pro-sidebar-inner .pro-sidebar-layout .logotext p {
+  font-size: 20px;
+  padding: 0 20px;
+  color: #adadad;
+  font-weight: bold;
+}
+.header .pro-sidebar-inner .pro-sidebar-layout ul {
+  padding: 0 5px;
+}
+.header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+  color: #adadad;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+.header .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper .pro-item-content {
+  color: $white;
+}
+.header .pro-sidebar-inner .pro-sidebar-layout .active {
+  background-image: linear-gradient(0deg, $color-4);
+}
+.header .logo {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    overflow: hidden;
+  }
+}

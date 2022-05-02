@@ -7,19 +7,17 @@ const Countries = () => {
     const [rangeValue, setRangeValue] = useState(10);
     const [selectedRadio, setSelectedRadio] = useState("")
     const radios = {
-        "Action" : 28,
-        "Comédie" : 35,
-        "Horreur" : 27,
-        "Romance" : 10749,
-    }; 
+        "Action": 28,
+        "Comédie": 35,
+        "Horreur": 27,
+        "Romance": 10749,
+    };
 
     useEffect(() => {
         fetch("https://api.themoviedb.org/3/discover/movie?api_key=62e9afa9b26ec1658e4f7c572663a19b&langage=fr-FR")
             .then((res) => res.json())
             .then((res) => setData(res["results"]))
     }, [])
-
-    console.log(data)
 
     return (
         <div className="countries">
@@ -36,7 +34,7 @@ const Countries = () => {
                         <input
                             type="radio"
                             id={value} name="GenreRadio"
-                            checked={value === selectedRadio}
+                            checked={value === parseInt(selectedRadio)}
                             onChange={(e) => setSelectedRadio(e.target.id)} />
                         <label htmlFor={value}>{key}</label>
                     </li>
@@ -60,7 +58,7 @@ const Countries = () => {
                             .map((movie, index) => (
                                 <Card key={index} movie={movie} />
                             ))
-                    )                       
+                    )
                 }
             </ul>
         </div >

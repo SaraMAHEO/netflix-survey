@@ -7,4 +7,12 @@
     label{
         color: white;
     }
+    button {
+        background-color: $color-4;
+        border-color: $color-4;
+    }
+    .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: $color-4;
+        border-color: $color-4;
+    }
 }

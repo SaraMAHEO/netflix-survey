@@ -1,9 +1,8 @@
 {
     "The Batman":[
         {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
+            "question": "Quel est le nom de l'acteur principal ?",
+            "answers": [        
                 {
                     "answer": "Paul Dano",
                     "is_right" : false
@@ -12,123 +11,185 @@
                     "answer": "Robert Patinson",
                     "is_right" : true
                 }
-                
+                ,
+                {
+                    "answer": "Tom Holland",
+                    "is_right" : false
+                }                
             ]
         },
-
         {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
+            "question": "Qui est la première victime du Riddler ?",
+            "answers": [        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "Le commissaire de Gotham City",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "Le maire de Gotham City",
                     "is_right" : true
-                }
-                
+                },
+                {
+                    "answer": "Alfred Pennyworth",
+                    "is_right" : false
+                }                
+            ]
+        },
+        {
+            "question": "Quel lieu était dirigé par Thomas et Martha Wayne ?",
+            "answers": [        
+                {
+                    "answer": "Un orphelinat",
+                    "is_right" : true
+                },
+                {
+                    "answer": "Un musée",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Une galerie d’art",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Une école",
+                    "is_right" : false
+                }                   
+            ]
+        },
+        {
+            "question": "Combien d’acteurs ont joué Batman au cinéma ?",
+            "answers": [        
+                {
+                    "answer": "6",
+                    "is_right" : false
+                },
+                {
+                    "answer": "7",
+                    "is_right" : true
+                },
+                {
+                    "answer": "8",
+                    "is_right" : false
+                },
+                {
+                    "answer": "9",
+                    "is_right" : false
+                }                   
+            ]
+        },
+        {
+            "question": "Qui a été à deux doigts de jouer Batman dans “Batman Begins” réalisé par Christopher Nolan en 2005 ?",
+            "answers": [        
+                {
+                    "answer": "Clint Eastwood",
+                    "is_right" : true
+                },
+                {
+                    "answer": "Arnold Schwarzenegger",
+                    "is_right" : false
+                }                  
             ]
         }
     ],
 
     "Spider-Man: No Way Home":[
         {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
+            "question": "Quel est le nom de l'acteur principal ?",
+            "answers": [        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "Dylan O'Brien",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "Tom Holland",
                     "is_right" : true
-                }
-                
+                }                
             ]
         },
-
         {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
+            "question": "Combien de méchants le Spider-Man de Tom Holland doit-il affronter ?",
+            "answers": [        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "5",
+                    "is_right" : true
+                },
+                {
+                    "answer": "6",
+                    "is_right" : false
+                }                
+            ]
+        },
+        {
+            "question": "À quoi sert le sort jeté par Doctor Strange ?",
+            "answers": [        
+                {
+                    "answer": "Permettre au monde entier de voir Peter Parker comme un héros",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "Faire oublier à la planète entière qui est Peter Parker",
                     "is_right" : true
+                }                
+            ]
+        },
+        {
+            "question": "Quel personnage est amené à avoir des pouvoirs ?",
+            "answers": [        
+                {
+                    "answer": "Ned",
+                    "is_right" : true
+                },
+                {
+                    "answer": "MJ",
+                    "is_right" : false
                 }
-                
+                ,{
+                    "answer": "Tante May",
+                    "is_right" : false
+                }   
+
+            ]
+        },
+        {
+            "question": "Quel Spider-Man n'est actuellement pas en couple ?",
+            "answers": [        
+                {
+                    "answer": "Celui de Tobey Maguire",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Celui d'Andrew Garfield",
+                    "is_right" : true
+                }  
             ]
         }
     ],
 
     "The Outfit":[
         {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
+            "question": "Quel est le nom de l'acteur principal ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
-                    "is_right" : false
+                    "answer": "Mark Rylance",
+                    "is_right" : true
                 },
                 {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
+                    "answer": "Mark Antoine",
+                    "is_right" : false
                 }
-                
             ]
         },
-
         {
-            "question": "Quel est le nom de l'acteur principal",
+            "question": "Combien de temps dure le film ?",
             "answers": [
         
                 {
-                    "answer": "Paul Dano",
-                    "is_right" : false
+                    "answer": "1h45",
+                    "is_right" : true
                 },
                 {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "Turning Red":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
+                    "answer": "2h08",
                     "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
                 }
                 
             ]
@@ -137,542 +198,189 @@
 
     "Uncharted":[
         {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
+            "question": "Quel est le nom de l'acteur principal qui joue Nathan Drake ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "Sam Holland",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "Tom Holland",
                     "is_right" : true
                 }
-                
             ]
         },
-
         {
-            "question": "Quel est le nom de l'acteur principal",
+            "question": "Quand est sorti le film ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "24 novembre 2021",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "16 février 2022",
                     "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "Sonic the Hedgehog 2":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
+                },
                 {
-                    "answer": "Paul Dano",
+                    "answer": "3 décembre 2020",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
+                    "answer": "19 mars 2021",
+                    "is_right" : false
                 }
-                
             ]
         },
-
         {
-            "question": "Quel est le nom de l'acteur principal",
+            "question": "Qui est Chloe Frazer ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "Une ex petite amie",
+                    "is_right" : true
+                },
+                {
+                    "answer": "Une amie",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "Yaksha: Ruthless Operations":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
+                    "answer": "Une ennemie",
                     "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
                 }
-                
             ]
         },
-
         {
-            "question": "Quel est le nom de l'acteur principal",
+            "question": "Quel est le nom du tout premier jeu Uncharted ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "Uncharted: Drake’s Deception",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "Uncharted: A Thief’s End",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Uncharted: Drake’s Fortune",
                     "is_right" : true
+                },
+                {
+                    "answer": "Uncharted: Among Thieves",
+                    "is_right" : false
                 }
-                
             ]
         }
     ],
 
     "Moonfall":[
         {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
+            "question": "Quel est le nom du réalisateur ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
-                    "is_right" : false
+                    "answer": "Roland Emmerich",
+                    "is_right" : true
                 },
                 {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
+                    "answer": "Patrick Wilson",
+                    "is_right" : false
                 }
-                
             ]
         },
-
         {
-            "question": "Quel est le nom de l'acteur principal",
+            "question": "Quelle est la durée du film ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
-                    "is_right" : false
+                    "answer": "2h00",
+                    "is_right" : true
                 },
                 {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "All the Old Knives":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
+                    "answer": "1h58",
                     "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
                 }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
             ]
         }
     ],
 
     "Blacklight":[
         {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
+            "question": "Quel est le nom de l'acteur principal ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
-                    "is_right" : false
+                    "answer": "Liam Neeson",
+                    "is_right" : true
                 },
                 {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
+                    "answer": "Tom Cruise",
+                    "is_right" : false
                 }
-                
             ]
         },
-
         {
-            "question": "Quel est le nom de l'acteur principal",
+            "question": "Quelle est la durée du film ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "1h59",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "1h48",
                     "is_right" : true
                 }
-                
-            ]
-        }
-    ],
-
-    "Encanto":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
             ]
         }
     ],
 
     "War of the Worlds: Annihilation":[
         {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
+            "question": "Quelle est la durée du film ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "2h03",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "1h53",
                     "is_right" : true
+                },
+                {
+                    "answer": "1h47",
+                    "is_right" : false
                 }
-                
             ]
         },
-
         {
-            "question": "Quel est le nom de l'acteur principal",
+            "question": "Quel est le nom du réalisateur ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "Léonard Snart",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "The Adam Project":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
+                    "answer": "Joey Fritz",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "Maximilian Elfeldt",
                     "is_right" : true
                 }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
             ]
         }
     ],
 
     "No Exit":[
         {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
+            "question": "Sur quelle plateforme le film va arriver ?",
             "answers": [
-        
                 {
-                    "answer": "Paul Dano",
+                    "answer": "Netflix",
                     "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
+                    "answer": "Disney +",
                     "is_right" : true
-                }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
                 },
                 {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "Pil's Adventures":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
+                    "answer": "Amazon Prime Video",
                     "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "Gold":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "Hotel Transylvania: Transformania":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "Black Crab":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "Restless":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        }
-    ],
-
-    "The In Between":[
-        {
-            "question": "Quel est le nom de l'acteur principal de Spider-Man: No Way Home",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
-                }
-                
-            ]
-        },
-
-        {
-            "question": "Quel est le nom de l'acteur principal",
-            "answers": [
-        
-                {
-                    "answer": "Paul Dano",
-                    "is_right" : false
-                },
-                {
-                    "answer": "Robert Patinson",
-                    "is_right" : true
                 }
                 
             ]

@@ -11,6 +11,28 @@
         background-color: $color-4;
         border-color: $color-4;
     }
+     button:hover{
+            background-color: $color-5;
+            border-color: $color-5;
+       }
+
+      input:hover,
+      .ant-input-password:hover,
+      .ant-checkbox:focus{
+        border-color: $color-5;
+      }
+
+      .ant-checkbox-wrapper:hover,
+      .ant-checkbox-wrapper-checked:hover
+      {
+            .ant-checkbox,
+            .ant-checkbox-checked,
+            .ant-checkbox-inner{
+            border-color: $color-5;
+            }
+
+          }
+
     .ant-checkbox-checked .ant-checkbox-inner {
         background-color: $color-4;
         border-color: $color-4;

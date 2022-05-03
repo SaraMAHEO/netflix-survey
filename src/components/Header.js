@@ -23,7 +23,6 @@ const Header = () => {
         menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
     };
     const { user, setUser } = useContext(UserContext);
-    const { scoreCtx, setScoreCtx } = useContext(ScoreContext);
 
     return (
         <>
@@ -59,7 +58,6 @@ const Header = () => {
                             <MenuItem icon={<FiLogOut />}>
                                 <NavLink to="/login" className="nav-text" onClick={() => {
                                     setUser(null);
-                                    setScoreCtx("0");
                                 }}>
                                     Déconnexion
                                 </NavLink>

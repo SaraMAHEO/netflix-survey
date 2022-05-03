@@ -6,23 +6,20 @@ import Profile from './pages/Profile';
 import { UserContext } from "./context/UserContext";
 import Login from './pages/Login';
 import { MovieContext } from './context/MovieContext';
-import { ScoreContext } from './context/ScoreContext';
-import Header from './components/Header';
+import { ScoreProvider } from './context/ScoreContext';
 
 const App = () => {
   const [user, setUser] = useState(null);
   const [movieCtx, setMovieCtx] = useState(null);
-  const [scoreCtx, setScoreCtx] = useState(null);
 
   const value = useMemo(() => ({ user, setUser }), [user, setUser]);
   const valueMovie = useMemo(() => ({ movieCtx, setMovieCtx }), [movieCtx, setMovieCtx]);
-  const valueScore = useMemo(() => ({ scoreCtx, setScoreCtx }), [scoreCtx, setScoreCtx]);
 
   return (
     <BrowserRouter>
       <UserContext.Provider value={value}>
         <MovieContext.Provider value={valueMovie}>
-          <ScoreContext.Provider value={valueScore}>
+          <ScoreProvider>
             {
               user ? (
                 <Routes>
@@ -37,7 +34,7 @@ const App = () => {
                 </Routes>
               )
             }
-          </ScoreContext.Provider>
+          </ScoreProvider>
         </MovieContext.Provider>
       </UserContext.Provider>
     </BrowserRouter >

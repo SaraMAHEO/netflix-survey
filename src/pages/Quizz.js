@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
-import Header from "../components/Header";
+import Header from "../components/Navigation";
 import Logo from "../components/Logo";
 import Fond from "../components/Fond";
 import Question from "../components/Question";
-import { UserContext } from "../context/UserContext";
 import { MovieContext } from "../context/MovieContext";
 
 const Quizz = () => {

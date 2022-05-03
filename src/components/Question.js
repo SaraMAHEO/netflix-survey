@@ -8,17 +8,26 @@ const Question = () => {
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
 	const { movieCtx, setMovieCtx } = useContext(MovieContext);
-	const { scoreCtx, setScoreCtx } = useContext(ScoreContext);
+	const { array, setArray } = useContext(ScoreContext);
 	const questions = Data[movieCtx];
-	let iQst =0;
 
 	const handleAnswerOptionClick = (isCorrect) => {
-		if (isCorrect) {
-			iQst++;
-			setScore(score + 1);
-			const qst = {idMovie:movieCtx, idQst:iQst, scoreQst:1};
-			setScoreCtx([...scoreCtx, qst]);
+		const iQst = currentQuestion + 1;
+		if(array.filter(function(e) { return e.idMovie === movieCtx && e.idQst === iQst; }).length > 0) {
+			const index = array.findIndex((e) => {
+				return e.idMovie === movieCtx && e.idQst === iQst;
+			})
+			array[index].scoreQst = Number(isCorrect);
+			setArray([...array]);
+		} else {
+			const qst = {idMovie:movieCtx, idQst:iQst, scoreQst:Number(isCorrect)};
+			setArray([...array, qst]);
 		}
+		if (isCorrect) {
+			setScore(score + 1);
+		}
+
+		console.log(array)
 
 		const nextQuestion = currentQuestion + 1;
 		if (nextQuestion < questions.length) {
@@ -26,7 +35,6 @@ const Question = () => {
 		} else {
 			setShowScore(true);
 		}
-		console.log(scoreCtx);
 	};
 
 	if (questions === undefined) {
@@ -42,7 +50,6 @@ const Question = () => {
 					<div className='score-section'>
 						<h1>Résultat du quizz !</h1>
 						<h2>Vous avez marqué {score} point(s) sur {questions.length}</h2>
-						{() => setScoreCtx(scoreCtx + score)}
 					</div>
 				) : (
 					<>

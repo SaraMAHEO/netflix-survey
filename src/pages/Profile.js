@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import Header from "../components/Header";
+import Header from "../components/Navigation";
 import { UserContext } from "../context/UserContext";
 import Logo from '../components/Logo';
 

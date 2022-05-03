@@ -15,7 +15,7 @@ import "react-pro-sidebar/dist/css/styles.css";
 
 const Header = () => {
     //create initial menuCollapse state using useState hook
-    const [menuCollapse, setMenuCollapse] = useState(false)
+    const [menuCollapse, setMenuCollapse] = useState(true)
 
     //create a custom function that will change menucollapse state from false to true and true to false
     const menuIconClick = () => {
@@ -23,6 +23,7 @@ const Header = () => {
         menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
     };
     const { user, setUser } = useContext(UserContext);
+    const { array, setArray } = useContext(ScoreContext);
 
     return (
         <>
@@ -58,6 +59,7 @@ const Header = () => {
                             <MenuItem icon={<FiLogOut />}>
                                 <NavLink to="/login" className="nav-text" onClick={() => {
                                     setUser(null);
+                                    setArray([]);
                                 }}>
                                     Déconnexion
                                 </NavLink>

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import Header from "../components/Header";
-import Countries from "../components/Countries";
+import Header from "../components/Navigation";
+import Countries from "../components/Movies";
 import { UserContext } from "../context/UserContext";
 import Logo from '../components/Logo';
 

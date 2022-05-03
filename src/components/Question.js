@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import Data from '../assets/question.json';
 import { MovieContext } from "../context/MovieContext";
 import { ScoreContext } from '../context/ScoreContext';
@@ -10,12 +10,14 @@ const Question = () => {
 	const { movieCtx, setMovieCtx } = useContext(MovieContext);
 	const { scoreCtx, setScoreCtx } = useContext(ScoreContext);
 	const questions = Data[movieCtx];
-
-	console.log(scoreCtx)
+	let iQst =0;
 
 	const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
+			iQst++;
 			setScore(score + 1);
+			const qst = {idMovie:movieCtx, idQst:iQst, scoreQst:1};
+			setScoreCtx([...scoreCtx, qst]);
 		}
 
 		const nextQuestion = currentQuestion + 1;
@@ -24,6 +26,7 @@ const Question = () => {
 		} else {
 			setShowScore(true);
 		}
+		console.log(scoreCtx);
 	};
 
 	if (questions === undefined) {
@@ -39,7 +42,7 @@ const Question = () => {
 					<div className='score-section'>
 						<h1>Résultat du quizz !</h1>
 						<h2>Vous avez marqué {score} point(s) sur {questions.length}</h2>
-						{() => setScoreCtx(String(Number(scoreCtx) + score))}
+						{() => setScoreCtx(scoreCtx + score)}
 					</div>
 				) : (
 					<>

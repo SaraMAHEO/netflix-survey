@@ -14,9 +14,9 @@ const App = () => {
   const [movieCtx, setMovieCtx] = useState(null);
   const [scoreCtx, setScoreCtx] = useState(null);
 
-  const value = useMemo(() => ({ user, setUser }), [user, setUser])
-  const valueMovie = useMemo(() => ({ movieCtx, setMovieCtx }), [movieCtx, setMovieCtx])
-  const valueScore = useMemo(() => ({ scoreCtx, setScoreCtx }), [scoreCtx, setScoreCtx])
+  const value = useMemo(() => ({ user, setUser }), [user, setUser]);
+  const valueMovie = useMemo(() => ({ movieCtx, setMovieCtx }), [movieCtx, setMovieCtx]);
+  const valueScore = useMemo(() => ({ scoreCtx, setScoreCtx }), [scoreCtx, setScoreCtx]);
 
   return (
     <BrowserRouter>

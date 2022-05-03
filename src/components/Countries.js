@@ -14,7 +14,7 @@ const Countries = () => {
     };
 
     useEffect(() => {
-        fetch("https://api.themoviedb.org/3/discover/movie?api_key=62e9afa9b26ec1658e4f7c572663a19b&langage=fr-FR")
+        fetch("https://api.themoviedb.org/3/discover/movie?primary_release_date.gte=2021-12-01&primary_release_date.lte=2022-03-01&api_key=62e9afa9b26ec1658e4f7c572663a19b&langage=fr-FR")
             .then((res) => res.json())
             .then((res) => setData(res["results"]))
     }, [])

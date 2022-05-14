@@ -1,9 +1,10 @@
 @import "./settings";
 @import "~antd/dist/antd.css";
-@import "./components/fond.scss";
-@import "./components/header";
+@import "./components/fond";
+@import "./components/navigation";
 @import "./components/logo";
-@import "./components/countries";
+@import "./components/movies";
 @import "./components/card";
-@import "./components/login";
+@import "./pages/login";
 @import "./components/question";
+@import "./pages/results";

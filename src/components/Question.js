@@ -7,7 +7,7 @@ const Question = () => {
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
-	const { movieCtx, setMovieCtx } = useContext(MovieContext);
+	const { movieCtx } = useContext(MovieContext);
 	const { array, setArray } = useContext(ScoreContext);
 	const questions = Data[movieCtx];
 
@@ -26,7 +26,6 @@ const Question = () => {
 		if (isCorrect) {
 			setScore(score + 1);
 		}
-
 		console.log(array)
 
 		const nextQuestion = currentQuestion + 1;

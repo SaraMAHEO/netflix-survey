@@ -1,0 +1,31 @@
+.results {
+    text-align: center;
+
+    .answer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .item {
+        margin-top: 0.1em;
+        margin-left: 1em;
+        font-size: 2em;
+    }
+
+    .fiThumbsUp {
+        color: green;
+    }
+
+    .fiThumbsDown {
+        color: $color-4;
+    }
+
+    span {
+        font-size: 2em;
+    }
+
+    h2 {
+        margin-top: 20px;
+    }
+}

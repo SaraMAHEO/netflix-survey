@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Card from './Card';
 
-const Countries = () => {
+const Movies = () => {
     const [data, setData] = useState([])
     const [rangeValue, setRangeValue] = useState(10);
     const [selectedRadio, setSelectedRadio] = useState("")
@@ -20,7 +20,7 @@ const Countries = () => {
     }, [])
 
     return (
-        <div className="countries">
+        <div className="movies">
             <ul className="radio-container">
                 <input
                     type="range"
@@ -65,4 +65,4 @@ const Countries = () => {
     );
 };
 
-export default Countries;
+export default Movies;

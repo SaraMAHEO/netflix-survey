@@ -7,7 +7,7 @@ const base_url = "https://image.tmdb.org/t/p/original/";
 
 const Card = ({ movie }) => {
   let navigate = useNavigate();
-  const { movieCtx, setMovieCtx } = useContext(MovieContext);
+  const { setMovieCtx } = useContext(MovieContext);
 
     return (
         <li className="card" 

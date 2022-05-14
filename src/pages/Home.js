@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Header from "../components/Navigation";
-import Countries from "../components/Movies";
+import Movies from "../components/Movies";
 import { UserContext } from "../context/UserContext";
 import Logo from '../components/Logo';
 
@@ -12,10 +12,10 @@ const Home = () => {
             <Header />
             <div className="content">
                 <Logo />
-                <div className="countries">
+                <div className="movies">
                     <h3>Bienvenue {user}</h3>
                 </div>
-                <Countries />
+                <Movies />
             </div>
         </div >
     );

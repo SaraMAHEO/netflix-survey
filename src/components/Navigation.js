@@ -10,7 +10,8 @@ import {
     SidebarFooter,
     SidebarContent,
 } from "react-pro-sidebar";
-import { FiHome, FiLogOut, FiUser, FiMenu } from "react-icons/fi";
+import { FiHome, FiLogOut, FiMenu } from "react-icons/fi";
+import { BsTrophy } from "react-icons/bs";
 import "react-pro-sidebar/dist/css/styles.css";
 
 const Header = () => {
@@ -22,12 +23,12 @@ const Header = () => {
         //condition checking to change state from true to false and vice versa
         menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
     };
-    const { user, setUser } = useContext(UserContext);
-    const { array, setArray } = useContext(ScoreContext);
+    const { setUser } = useContext(UserContext);
+    const { setArray } = useContext(ScoreContext);
 
     return (
         <>
-            <div className="header">
+            <div className="navigation">
                 {/* collapsed props to change menu size using menucollapse state */}
                 <ProSidebar collapsed={menuCollapse}>
                     <SidebarHeader>
@@ -47,9 +48,9 @@ const Header = () => {
                                     Accueil
                                 </NavLink>
                             </MenuItem>
-                            <MenuItem icon={<FiUser />}>
-                                <NavLink to="/profile" className="nav-text">
-                                    Compte
+                            <MenuItem icon={<BsTrophy />}>
+                                <NavLink to="/results" className="nav-text">
+                                    Résultats
                                 </NavLink>
                             </MenuItem>
                         </Menu>

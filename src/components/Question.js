@@ -26,7 +26,6 @@ const Question = () => {
 		if (isCorrect) {
 			setScore(score + 1);
 		}
-		console.log(array)
 
 		const nextQuestion = currentQuestion + 1;
 		if (nextQuestion < questions.length) {

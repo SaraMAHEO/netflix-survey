@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import Quizz from './pages/Quizz';
-import Profile from './pages/Results';
+import Profile from './pages/Profile';
 import { UserContext } from "./context/UserContext";
 import Login from './pages/Login';
 import { MovieContext } from './context/MovieContext';

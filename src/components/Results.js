@@ -26,14 +26,16 @@ const Results = () => {
 
     if (array.length < 5) {
         return (
-            <div className="results">
+            <div className="answer">
                 <h2>Vous n'avez fini aucun quizz</h2>
             </div>
         )
     } else {
         return (
             <div className="results">
-                <div>
+                <div className="correction">
+                <h2>Correction</h2>
+                <div className="correction-content">
                     {array.map(function (answer) {
                         totalScore = totalScore + answer.scoreQst
                         if (answer.idMovie !== currentMovie) {
@@ -71,9 +73,12 @@ const Results = () => {
                                 </>
                         }
                     })}
+                    </div>
                 </div>
                 <div className="line"></div>
                 <div className="percent">
+                    <h2>Pourcentage de réussite</h2>
+                    <div className="percent-content">
                     {array.map(function (answer) {
                         if (answer.idMovie !== currentMovieScore) {
                             currentMovieScore = answer.idMovie;
@@ -118,6 +123,7 @@ const Results = () => {
                             unit: "%",
                         }
                     } />
+                    </div>
                 </div>
             </div>
         );

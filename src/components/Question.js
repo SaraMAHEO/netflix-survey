@@ -2,6 +2,7 @@ import React, { useState, useContext, useEffect } from 'react';
 import Data from '../assets/question.json';
 import { MovieContext } from "../context/MovieContext";
 import { ScoreContext } from '../context/ScoreContext';
+import { NavLink } from 'react-router-dom';
 
 const Question = () => {
 	const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -39,6 +40,11 @@ const Question = () => {
 		return (
 			<div className='error-question'>
 				<h2>Il n'y a pas de question disponible</h2>
+				<button className="retour-accueil">
+					<NavLink to="/">
+						Retour à la page d'accueil
+                    </NavLink>
+				</button>
 			</div>
 		)
 	} else {
@@ -48,6 +54,11 @@ const Question = () => {
 					<div className='score-section'>
 						<h1>Résultat du quizz !</h1>
 						<h2>Vous avez marqué {score} point(s) sur {questions.length}</h2>
+						<button className="retour-accueil">
+							<NavLink to="/">
+								Retour à la page d'accueil
+                    		</NavLink>
+						</button>
 					</div>
 				) : (
 					<>

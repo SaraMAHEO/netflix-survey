@@ -9,9 +9,21 @@
       color: red;
     }    
   }
+
+  .score-section {
+    text-align: center;
+  }
+
+  .retour-accueil {
+    position: absolute;
+    left: 6em;
+    bottom: 5em;
+    a {
+      color: white;
+    }
+  }
   
   h1, h2{
-    text-align: center;
     color: white;
   }
 

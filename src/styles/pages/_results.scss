@@ -1,7 +1,19 @@
 .results {
     display: flex;
     flex-direction: row;
-    margin: 1%;
+    justify-content: center;
+    margin: 3%;
+
+    .correction {
+        width: 50%;
+        margin-right: 5em;
+    }
+
+    .correction-content {
+        background-color: $color-3;
+        padding: 1.5em;
+        border-radius: 0.5em;
+    }
 
     .answer {
         display: flex;
@@ -29,14 +41,31 @@
 
     h2 {
         font-size: 3em;
-        margin-top: 20px;
     }
 
     .percent {
+        width: 50%;
+    }
+
+    .percent-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: auto;
+        background-color: $color-3;
+        padding: 1.5em;
+        border-radius: 0.5em;
     }
+}
+
+.resultTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.correctionTitle {
+    margin-left: auto;
+    margin-right: auto;
 }

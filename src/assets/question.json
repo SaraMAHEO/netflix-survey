@@ -193,6 +193,57 @@
                 }
                 
             ]
+        },
+        {
+            "question": "Quelle est la nationalité du film ?",
+            "answers": [
+                {
+                    "answer": "Français",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Américan",
+                    "is_right" : true
+                },
+                {
+                    "answer": "Anglais",
+                    "is_right" : false
+                }
+            ]
+        },
+        {
+            "question": "Qui est le compositeur des musiques?",
+            "answers": [
+                {
+                    "answer": "Alexandre Desplat",
+                    "is_right" : true
+                },
+                {
+                    "answer": "Hans Zimmer",
+                    "is_right" : false
+                },
+                {
+                    "answer": "John Williams",
+                    "is_right" : false
+                }
+            ]
+        },
+        {
+            "question": "Qui est le réalisateur ?",
+            "answers": [
+                {
+                    "answer": "Stanley Kubrick",
+                    "is_right" : false
+                },
+                {
+                    "answer": "David Fincher",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Graham Moore",
+                    "is_right" : true
+                }
+            ]
         }
     ],
 
@@ -268,6 +319,23 @@
                     "is_right" : false
                 }
             ]
+        },
+        {
+            "question": "Combien de temps dure le film ?",
+            "answers": [
+                {
+                    "answer": "2h08",
+                    "is_right" : false
+                },
+                {
+                    "answer": "1h48",
+                    "is_right" : false
+                },
+                {
+                    "answer": "1h56",
+                    "is_right" : true
+                }
+            ]
         }
     ],
 
@@ -297,6 +365,55 @@
                     "is_right" : false
                 }
             ]
+        },
+        {
+            "question": "Quelle est la nationalité film ?",
+            "answers": [
+                {
+                    "answer": "Américan",
+                    "is_right" : true
+                },
+                {
+                    "answer": "Français",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Coréen",
+                    "is_right" : false
+                }
+            ]
+        },{
+            "question": "Qui est l'un des compositeur?",
+            "answers": [
+                {
+                    "answer": "Thomas Wanker",
+                    "is_right" : true
+                },
+                {
+                    "answer": "William Warren",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Kyle  Toney",
+                    "is_right" : false
+                }
+            ]
+        },{
+            "question": "Qui est l'actrice principale ?",
+            "answers": [
+                {
+                    "answer": "Kay  Jeffers",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Lois Ward",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Halle Berry",
+                    "is_right" : true
+                }
+            ]
         }
     ],
 
@@ -323,6 +440,45 @@
                 },
                 {
                     "answer": "1h48",
+                    "is_right" : true
+                }
+            ]
+        },
+        {
+            "question": "Qui est le réalisateur ?",
+            "answers": [
+                {
+                    "answer": "Aiden Quinn",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Mark Williams",
+                    "is_right" : true
+                }
+            ]
+        },
+        {
+            "question": "Quelle est sa date de sortie ?",
+            "answers": [
+                {
+                    "answer": "23 février 2022",
+                    "is_right" : true
+                },
+                {
+                    "answer": "15 janvier 2022",
+                    "is_right" : false
+                }
+            ]
+        },
+        {
+            "question": "Quelle est la société de distribution ?",
+            "answers": [
+                {
+                    "answer": "Arts Films",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Metropolitan FilmExport",
                     "is_right" : true
                 }
             ]
@@ -363,26 +519,56 @@
                     "is_right" : true
                 }
             ]
-        }
-    ],
-
-    "No Exit":[
+        },
         {
-            "question": "Sur quelle plateforme le film va arriver ?",
+            "question": "Qui a écrit le scénario ?",
             "answers": [
                 {
-                    "answer": "Netflix",
+                    "answer": "David Burks",
                     "is_right" : false
                 },
                 {
-                    "answer": "Disney +",
+                    "answer": "Jerry Nguyen",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Conor Dowling",
+                    "is_right" : true
+                }
+            ]
+        },
+        {
+            "question": "Qui est l'actrice principale ?",
+            "answers": [
+                {
+                    "answer": "Blanca Weeks",
+                    "is_right" : false
+                },
+                {
+                    "answer": "Arie Thompson",
                     "is_right" : true
                 },
                 {
-                    "answer": "Amazon Prime Video",
+                    "answer": "Tina Gonzalez",
                     "is_right" : false
                 }
-                
+            ]
+        },
+        {
+            "question": "Qui est l'actrice principale ?",
+            "answers": [
+                {
+                    "answer": "John Jackson",
+                    "is_right" : false
+                },
+                {
+                    "answer": "David Campbell",
+                    "is_right" : false
+                },
+                {
+                    "answer": "William Baldwin",
+                    "is_right" : true
+                }
             ]
         }
     ]

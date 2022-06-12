@@ -12,4 +12,4 @@ Par défaut l'utilisateur arrive sur une page de login. Il suffit de juste de re
 
 Pour lancer un quizz, il suffit de clique sur la carte du film choisi.
 
-POur voir le résumé des quizz effectués et des différents scores il faut cliquer dans le menu sur l'onglet résultat.
+Pour voir le résumé des quizz effectués et des différents scores il faut cliquer dans le menu sur l'onglet résultat.

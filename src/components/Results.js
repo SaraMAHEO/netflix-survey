@@ -1,7 +1,5 @@
 import React, { useContext } from 'react';
-import Header from "../components/Navigation";
 import { ScoreContext } from "../context/ScoreContext";
-import Logo from '../components/Logo';
 import { FiThumbsUp, FiThumbsDown } from "react-icons/fi";
 import { CircularProgressBar } from "@tomik23/react-circular-progress-bar";
 

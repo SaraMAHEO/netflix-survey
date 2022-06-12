@@ -29,8 +29,8 @@ const Movies = () => {
                     defaultValue={rangeValue}
                     onChange={(e) => setRangeValue(e.target.value)}
                 />
-                {Object.entries(radios).map(([key, value]) => (
-                    <li>
+                {Object.entries(radios).map(([key, value], index) => (
+                    <li key={index}>
                         <input
                             type="radio"
                             id={value} name="GenreRadio"

@@ -71,8 +71,8 @@ const Question = () => {
 							</div>
 						</div>
 						<div className='answer-section'>
-							{questions[currentQuestion].answers.map((answerOption) => (
-								<button onClick={() => handleAnswerOptionClick(answerOption.is_right)}>{answerOption.answer}</button>
+							{questions[currentQuestion].answers.map((answerOption, index) => (
+								<button key={index} onClick={() => handleAnswerOptionClick(answerOption.is_right)}>{answerOption.answer}</button>
 							))}
 						</div>
 					</>

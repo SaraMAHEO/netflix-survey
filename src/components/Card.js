@@ -1,25 +1,25 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MovieContext } from "../context/MovieContext";
-import Question from './Question';
+
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
-const Card = ({ movie }) => {
+const Card = (props) => {
   let navigate = useNavigate();
   const { setMovieCtx } = useContext(MovieContext);
 
     return (
         <li className="card" 
         onClick={() => {  
-          setMovieCtx(movie.title);        
+          setMovieCtx(props.movie.title);        
           navigate("/quizz");
       }} >
             <img
                 src={`${base_url}${
-                  movie.poster_path
+                  props.movie.poster_path
                 }`}
-                alt={movie.title}                             
+                alt={props.movie.title}                             
               />
         </li>
     );

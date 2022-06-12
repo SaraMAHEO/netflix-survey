@@ -42,7 +42,7 @@ const Results = () => {
                             currentMovie = answer.idMovie;
                             return answer.scoreQst > 0 ?
                                 <>
-                                    <h2>{currentMovie}</h2>
+                                    <span className="currentmoovie">{currentMovie}</span>
                                     <div className="answer">
                                         <span>Question {answer.idQst}</span>
                                         <FiThumbsUp className="item fiThumbsUp" />
@@ -50,7 +50,7 @@ const Results = () => {
                                 </>
                                 :
                                 <>
-                                    <h2>{currentMovie}</h2>
+                                    <span className="currentmoovie">{currentMovie}</span>
                                     <div className="answer">
                                         <span>Question {answer.idQst}</span>
                                         <FiThumbsDown className="item fiThumbsDown" />
@@ -85,7 +85,7 @@ const Results = () => {
                             percentScore = answer.scoreQst;
                             return (
                                 <>
-                                    <h2>Votre score sur le quizz {currentMovieScore} :</h2>
+                                    <span className="currentmoovie">Votre score sur le quizz {currentMovieScore} :</span>
                                 </>
                             )
                         } else if (answer.idQst === 5) {
@@ -109,7 +109,7 @@ const Results = () => {
                             percentScore = percentScore + answer.scoreQst;
                         }
                     })}
-                    <h2>Votre score total sur les quizz réalisés :</h2>
+                    <span className="currentmoovie">Votre score total sur les quizz réalisés :</span>
                     <CircularProgressBar {
                         ...{
                             percent: (totalScore / array.length) * 100,

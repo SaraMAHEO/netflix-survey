@@ -13,6 +13,9 @@
         background-color: $color-3;
         padding: 1.5em;
         border-radius: 0.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .answer {
@@ -39,8 +42,9 @@
         font-size: 2em;
     }
 
-    h2 {
+    .currentmoovie {
         font-size: 3em;
+        text-align: center;
     }
 
     .percent {
